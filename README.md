@@ -1,5 +1,5 @@
 # nuxt-graphql-example
-
+http://localhost:3000/nuxt-graphql-example/
 > My cat&#39;s pajamas Nuxt.js project
 
 ## Build Setup

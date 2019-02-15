@@ -15,7 +15,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/nuxt-graphql-example/favicon.ico' }
     ]
   },
 
@@ -70,5 +70,8 @@ module.exports = {
     extend(config, ctx) {
       
     }
+  },
+  router: {
+    base: '/nuxt-graphql-example/'
   }
 }
