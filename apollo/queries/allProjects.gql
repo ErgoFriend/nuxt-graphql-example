@@ -1,0 +1,28 @@
+{
+ allProjects{
+  edges{
+    node{
+      name
+      content
+      user{
+        username
+      }
+      tags{
+        edges{
+          node{
+            name
+          }
+        }
+      }
+      users{
+        edges{
+          node{
+            username
+          }
+        }
+      }
+      updatedAt
+    }
+  }
+}
+}

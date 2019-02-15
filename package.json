@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-graphql-example",
+  "version": "1.0.0",
+  "description": "My cat&#39;s pajamas Nuxt.js project",
+  "author": "ergofriend",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.0-rc2.3",
+    "@nuxtjs/markdownit": "^1.2.3",
+    "apollo-link-http": "^1.5.11",
+    "cross-env": "^5.2.0",
+    "graphql": "^14.1.1",
+    "markdown-it-toc": "^1.1.0",
+    "nuxt": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
