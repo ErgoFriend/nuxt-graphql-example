@@ -2,6 +2,9 @@
  allProjects{
   edges{
     node{
+      header
+      logo
+      url
       name
       content
       user{

@@ -1,13 +1,19 @@
 <template>
   <div>
-    <h2>allTags</h2>
+    <h1>allTags</h1>
     <ul>
       <li v-for="tag in allTags.edges" :key="tag.node.name">{{ tag.node.name }}</li>
     </ul>
-    <h2>allProjects</h2>
+    <h1>allProjects</h1>
     <ul>
       <li v-for="pro in allProjects.edges" :key="pro.node.name">
-      {{ pro.node.name }}
+      <h3>{{ pro.node.name }}</h3>
+      ヘッダー
+      <img src="pro.node.header" width="100px" height="100px">
+      ロゴ
+      <img src="pro.node.logo" width="100px" height="100px">
+      ホームページ
+      <img src="pro.node.url" width="100px" height="100px">
       <br>
       <div v-html="$md.render(pro.node.content)"></div>
       <br>
