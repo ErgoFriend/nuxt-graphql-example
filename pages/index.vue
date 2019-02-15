@@ -9,11 +9,11 @@
       <li v-for="pro in allProjects.edges" :key="pro.node.name">
       <h3>{{ pro.node.name }}</h3>
       ヘッダー
-      <img src="pro.node.header" width="100px" height="100px">
+      <img :src="pro.node.header" width="700px" height="300px">
       ロゴ
-      <img src="pro.node.logo" width="100px" height="100px">
+      <img :src="pro.node.logo" width="200px" height="200px">
       ホームページ
-      <img src="pro.node.url" width="100px" height="100px">
+      <a :href="pro.node.url">{{ pro.node.url }}</a>
       <br>
       <div v-html="$md.render(pro.node.content)"></div>
       <br>
